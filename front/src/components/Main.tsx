@@ -1,5 +1,3 @@
-"use client";
-
 import { TonConnectButton, useTonConnectUI } from "@tonconnect/ui-react";
 import { useEffect, useState } from "react";
 

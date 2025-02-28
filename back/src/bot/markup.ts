@@ -1,7 +1,6 @@
 import { Markup } from "telegraf";
 
 export const BUTTON_ACTIONS = {
-    OPEN_APP: "open_app",
     TEST_LUCK: "test_luck",
 };
 
