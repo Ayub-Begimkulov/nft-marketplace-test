@@ -1,0 +1,1958 @@
+{
+    "1745274b-d2cf-8068-9ec0-dec263902ac8": {
+        "value": {
+            "id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "version": 144,
+            "type": "page",
+            "properties": {
+                "title": [["TS Product: take-home assignment "]]
+            },
+            "content": [
+                "629b06a1-ddc3-43ca-9670-a01ffb423173",
+                "f5b406cd-46d1-418b-b0c9-261c51bc9b63",
+                "ea157132-783b-4c77-86fe-8ac8e644f4d0",
+                "35f0b622-8816-4345-ad9c-2d32d0b12a70",
+                "24bc5caf-5374-405f-b439-a7894624b24f",
+                "841b8d30-363e-4f90-a57d-bb22ae07f8b4",
+                "8962f42c-4e3b-4f36-9e10-666bc0bf5691",
+                "fa0f5e37-b9be-4636-8f4c-d7cb27d9eaa2",
+                "babb2702-5a70-4876-a297-39cfa07c13b1",
+                "cb9f1658-0f28-41b0-bfbd-43e50aebafa3",
+                "1dc5fef2-22f5-4219-b329-608f5915e076",
+                "3618d515-8935-415f-8ef8-27bd3d1d69c1",
+                "fe1963bb-ca57-4890-bce4-953e40028e45",
+                "b38c7ba4-dc82-434c-a8c9-91240ee87526",
+                "057bb760-c71d-499e-9b3c-2f129d6aab86",
+                "26a53528-5bca-4b2c-9d18-fca518e0380e",
+                "cea91823-53c5-4e68-bd8b-f8e604851077",
+                "ae34240b-c2f0-42c1-95f6-7a0c3d005da2",
+                "7ad2b31a-3dc5-4f13-825c-b41399797292",
+                "66acd7a2-a60a-4c38-9f90-36b85a198ce9",
+                "6d2d5af5-e722-49fd-85b8-3db63c1dd8c4",
+                "f5585bdf-d204-4e74-b781-d6c7c1729c6d",
+                "470f4e91-96a5-449e-8d1f-e7673563142c",
+                "a82cbaa7-0d6d-4dfd-b92c-da3e4d31f631",
+                "1447a30d-29f2-45b8-a829-19476b079003",
+                "19d5274b-d2cf-80da-9359-d11e087279d2",
+                "c008e1ce-66b7-402b-a420-c80463034c05",
+                "0756b0a7-c9d0-4f5a-a6f4-ed4c060e3d70",
+                "b1801ef3-38c4-4ed2-9d63-1b0f340a9b76",
+                "6b29ca1a-da06-432d-a4ae-72252a19463e",
+                "98df7138-3b24-4525-80b6-bd73c97ca84e",
+                "28c81855-eb28-4ca7-b549-39c44933afac",
+                "19d5274b-d2cf-8011-9668-dd39feb6daee",
+                "2f4f30b6-ed09-4a31-ab45-f2c49e0261f8",
+                "18c82011-62d8-4ea1-bd44-18ad5f5b5af2",
+                "19d5274b-d2cf-8067-bbdf-d3f3a6784f32"
+            ],
+            "format": {
+                "site_id": "1745274b-d2cf-8084-b488-0079b1802b54",
+                "copied_from_pointer": {
+                    "id": "1bb40c41-2448-483c-816a-bc79cf528325",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                },
+                "social_media_image_preview_url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/6a094972-b8a0-4fad-90e1-8ad77da3c239/b83ad4e6-a61f-4447-8913-8d94ddcd2423/SocialMediaPreviewImage.png"
+            },
+            "permissions": [
+                {
+                    "role": "editor",
+                    "type": "user_permission",
+                    "user_id": "76821f57-1064-429e-9a59-f3429eeba5a2"
+                },
+                {
+                    "role": "reader",
+                    "type": "public_permission",
+                    "added_timestamp": 1736232438235
+                }
+            ],
+            "created_time": 1736231916193,
+            "last_edited_time": 1739788459945,
+            "parent_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239",
+            "parent_table": "space",
+            "alive": true,
+            "copied_from": "1bb40c41-2448-483c-816a-bc79cf528325",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "629b06a1-ddc3-43ca-9670-a01ffb423173": {
+        "value": {
+            "id": "629b06a1-ddc3-43ca-9670-a01ffb423173",
+            "version": 37,
+            "type": "sub_header",
+            "properties": {
+                "title": [["Demo TMA: TON NFT Marketplace"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "990aa9d0-7eac-4a2a-817d-afc77ad865ea",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916193,
+            "last_edited_time": 1739788403410,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "990aa9d0-7eac-4a2a-817d-afc77ad865ea",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "f5b406cd-46d1-418b-b0c9-261c51bc9b63": {
+        "value": {
+            "id": "f5b406cd-46d1-418b-b0c9-261c51bc9b63",
+            "version": 2,
+            "type": "sub_sub_header",
+            "properties": {
+                "title": [["Overview"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "1f8e52d4-d195-401a-8267-03c6bbcd4af1",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916193,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "1f8e52d4-d195-401a-8267-03c6bbcd4af1",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "ea157132-783b-4c77-86fe-8ac8e644f4d0": {
+        "value": {
+            "id": "ea157132-783b-4c77-86fe-8ac8e644f4d0",
+            "version": 55,
+            "type": "text",
+            "properties": {
+                "title": [
+                    ["Build a "],
+                    [
+                        "telegram mini-app",
+                        [["a", "https://core.telegram.org/bots/webapps"]]
+                    ],
+                    [" that lets authorized users see a list of NFT items "],
+                    ["that are managed via this Notion page (see ", [["_"]]],
+                    [
+                        "Notion API",
+                        [["_"], ["a", "https://developers.notion.com/"]]
+                    ],
+                    [").", [["_"]]]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "1316f016-1728-4206-b41b-e590f25e277b",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916193,
+            "last_edited_time": 1739787875573,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "1316f016-1728-4206-b41b-e590f25e277b",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "35f0b622-8816-4345-ad9c-2d32d0b12a70": {
+        "value": {
+            "id": "35f0b622-8816-4345-ad9c-2d32d0b12a70",
+            "version": 2,
+            "type": "sub_sub_header",
+            "properties": {
+                "title": [["Prerequisites", [["b"]]]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "6bfc22e8-1983-4368-9230-4a0468b97ba7",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916193,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "6bfc22e8-1983-4368-9230-4a0468b97ba7",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "24bc5caf-5374-405f-b439-a7894624b24f": {
+        "value": {
+            "id": "24bc5caf-5374-405f-b439-a7894624b24f",
+            "version": 6,
+            "type": "text",
+            "properties": {
+                "title": [["The app should:"]]
+            },
+            "content": [
+                "87125349-cb61-4b6a-8607-27d588f6aeee",
+                "ac74106e-f993-4c72-95ae-9df1ad7e1c9f",
+                "5a94751e-ee1b-49a4-9771-b6de70daed00",
+                "1745274b-d2cf-807f-9520-c1490b7cf3fe",
+                "76a474dc-e34e-403a-a37d-22b45e4af358"
+            ],
+            "format": {
+                "copied_from_pointer": {
+                    "id": "1ce4e59d-1d7c-49f5-9466-972580b60503",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916193,
+            "last_edited_time": 1736232179890,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "1ce4e59d-1d7c-49f5-9466-972580b60503",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "841b8d30-363e-4f90-a57d-bb22ae07f8b4": {
+        "value": {
+            "id": "841b8d30-363e-4f90-a57d-bb22ae07f8b4",
+            "version": 2,
+            "type": "sub_sub_header",
+            "properties": {
+                "title": [["Task Description"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "9587bb35-2950-4994-aa20-a5afa2cebda1",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916193,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "9587bb35-2950-4994-aa20-a5afa2cebda1",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "8962f42c-4e3b-4f36-9e10-666bc0bf5691": {
+        "value": {
+            "id": "8962f42c-4e3b-4f36-9e10-666bc0bf5691",
+            "version": 62,
+            "type": "text",
+            "properties": {
+                "title": [
+                    ["There are only two pages in the app. The "],
+                    ["login page ", [["i"]]],
+                    [
+                        "lets users sign in via TON Connect. After the successful login, users are redirected to the "
+                    ],
+                    ["home page", [["i"]]],
+                    [
+                        ". The home page is available only for authorized users (via TON Connect). On the home page, users should be able to see a list of cards; each card represents a distant NFT item."
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "66710dcb-9982-4204-9172-3ebe8c8584f4",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916193,
+            "last_edited_time": 1739787996304,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "66710dcb-9982-4204-9172-3ebe8c8584f4",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "fa0f5e37-b9be-4636-8f4c-d7cb27d9eaa2": {
+        "value": {
+            "id": "fa0f5e37-b9be-4636-8f4c-d7cb27d9eaa2",
+            "version": 17,
+            "type": "text",
+            "properties": {
+                "title": [
+                    [
+                        "The most important task of this assignment - the list of NFT items to be displayed is"
+                    ],
+                    [" controlled via the table below,", [["_"]]],
+                    [" meaning you have to use "],
+                    ["Notion API", [["a", "https://developers.notion.com/"]]],
+                    [" to fetch the addresses from the table below:"]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "008de548-2fdc-42cd-9ff6-8cb36c4e0b75",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916193,
+            "last_edited_time": 1739788015335,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "008de548-2fdc-42cd-9ff6-8cb36c4e0b75",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "babb2702-5a70-4876-a297-39cfa07c13b1": {
+        "value": {
+            "id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "version": 8,
+            "type": "table",
+            "content": [
+                "50b75fed-122e-47b8-b1d9-f3e8f8da7aa4",
+                "87e5634a-a248-4923-b0b3-b6b8ddf15a83",
+                "52069f79-0783-41fb-80e3-3576ce949dbf",
+                "313c9c9c-da9e-495a-b917-30fcc2e85270",
+                "db94f7c8-5ed9-4c0c-8385-5125916a8a16",
+                "01e047c4-b9a1-4a53-9b76-1a4cd37328ac",
+                "100136f0-21e6-4ea3-91c8-2526fecaa8ca",
+                "e0dced53-fdc1-4202-82ce-486fc1ed0044",
+                "6f07fda0-104b-4f61-a9c7-f25d8feac2df",
+                "b3bec752-b620-4f46-ac8b-87b40d0c7525",
+                "09c5fc1e-405d-4536-9ac2-b61efa48f379",
+                "96f257bb-e5b0-4a4d-86d4-3e9abe751a0c",
+                "b532493b-30f4-4257-a0dc-1640231dfc32",
+                "c7ae887b-cdde-42de-a813-e673d2959df8",
+                "3a41364e-bd5c-492a-b2c1-c7e780f078c4",
+                "d558e85b-5de8-47af-ae4a-a3e8c621cd51",
+                "c860c809-ada3-4a08-9ba6-18dfaca9430e",
+                "9268b7bb-ca32-43b6-b607-f0264f67fee2",
+                "ca8c8744-52d2-4027-99c4-74704f3ba658",
+                "0c37e886-7f0b-4117-91e9-41b103f0ecb5",
+                "302d5624-dd31-42d4-9464-6afb83989615",
+                "11296c9a-3a1a-40cb-a9f4-ea51a6bc7fbd",
+                "7f22661c-fbab-422f-90a0-e2040c3662ac",
+                "0d08efb1-3420-4d47-8318-c9bc236675e5",
+                "06d84a5f-3d4f-48d5-854a-c0a76bbe543b",
+                "dc3c0c81-c3cb-4101-8950-d3a1e383c105",
+                "1745274b-d2cf-80ad-88b6-fd4ad0a2c8c7",
+                "1745274b-d2cf-8015-ab72-f6c2012477d3",
+                "1745274b-d2cf-8023-b346-fe0102090352"
+            ],
+            "format": {
+                "copied_from_pointer": {
+                    "id": "1ff162b1-14d7-480d-a3f2-6cd4f71d2639",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                },
+                "table_block_column_order": ["Iqwq"],
+                "table_block_column_format": {
+                    "Iqwq": {
+                        "width": 510
+                    }
+                },
+                "table_block_column_header": true
+            },
+            "created_time": 1736231916193,
+            "last_edited_time": 1736232386415,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "1ff162b1-14d7-480d-a3f2-6cd4f71d2639",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "cb9f1658-0f28-41b0-bfbd-43e50aebafa3": {
+        "value": {
+            "id": "cb9f1658-0f28-41b0-bfbd-43e50aebafa3",
+            "version": 16,
+            "type": "text",
+            "properties": {
+                "title": [
+                    [
+                        "If the above list changes (somebody adds or removes an address of the NFT item), your app should reflect the changes. These changes are infrequent - it’s enough to revalidate the addresses every 10-15 minutes. Thus, no need to use polling or web sockets."
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "417dcbad-8e0b-471e-87f8-a975febc1866",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1739788034950,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "417dcbad-8e0b-471e-87f8-a975febc1866",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "1dc5fef2-22f5-4219-b329-608f5915e076": {
+        "value": {
+            "id": "1dc5fef2-22f5-4219-b329-608f5915e076",
+            "version": 36,
+            "type": "text",
+            "properties": {
+                "title": [["Each card in the list displays item metadata:"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "cb0e09c9-ef93-45f4-a4b9-1935cf81e79c",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1739788070810,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "cb0e09c9-ef93-45f4-a4b9-1935cf81e79c",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "3618d515-8935-415f-8ef8-27bd3d1d69c1": {
+        "value": {
+            "id": "3618d515-8935-415f-8ef8-27bd3d1d69c1",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [["NFT friendly address"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "2796250e-ff89-46c7-a8e6-34e4c0c3e3ef",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "2796250e-ff89-46c7-a8e6-34e4c0c3e3ef",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "fe1963bb-ca57-4890-bce4-953e40028e45": {
+        "value": {
+            "id": "fe1963bb-ca57-4890-bce4-953e40028e45",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [["NFT raw address"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "ebabe5cc-f016-417b-8be2-336fcac2fc07",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "ebabe5cc-f016-417b-8be2-336fcac2fc07",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "b38c7ba4-dc82-434c-a8c9-91240ee87526": {
+        "value": {
+            "id": "b38c7ba4-dc82-434c-a8c9-91240ee87526",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [["Owner address"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "f13e4376-c610-4ea3-9d3a-cbc089df7168",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "f13e4376-c610-4ea3-9d3a-cbc089df7168",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "057bb760-c71d-499e-9b3c-2f129d6aab86": {
+        "value": {
+            "id": "057bb760-c71d-499e-9b3c-2f129d6aab86",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [["Image"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "46dacf1e-302e-4c81-995e-ac8811cfff14",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "46dacf1e-302e-4c81-995e-ac8811cfff14",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "26a53528-5bca-4b2c-9d18-fca518e0380e": {
+        "value": {
+            "id": "26a53528-5bca-4b2c-9d18-fca518e0380e",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [["Name"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "02352349-6e1f-435f-832e-cea2920d8728",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "02352349-6e1f-435f-832e-cea2920d8728",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "cea91823-53c5-4e68-bd8b-f8e604851077": {
+        "value": {
+            "id": "cea91823-53c5-4e68-bd8b-f8e604851077",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [["Description"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "b4b7f3ce-0716-4ca1-938f-2a5b78a93b7b",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "b4b7f3ce-0716-4ca1-938f-2a5b78a93b7b",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "ae34240b-c2f0-42c1-95f6-7a0c3d005da2": {
+        "value": {
+            "id": "ae34240b-c2f0-42c1-95f6-7a0c3d005da2",
+            "version": 87,
+            "type": "text",
+            "properties": {
+                "title": [
+                    [
+                        "Finally, the home page should display the first 5 items from the list and all other items are to be loaded (or preloaded) using infinite scroll."
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "ed2e266a-99bb-4ceb-914a-6be983721c81",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1739788117230,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "ed2e266a-99bb-4ceb-914a-6be983721c81",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "7ad2b31a-3dc5-4f13-825c-b41399797292": {
+        "value": {
+            "id": "7ad2b31a-3dc5-4f13-825c-b41399797292",
+            "version": 2,
+            "type": "sub_sub_header",
+            "properties": {
+                "title": [["The Result"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "898f26fb-8289-4df8-acf9-4c315694bb0a",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "898f26fb-8289-4df8-acf9-4c315694bb0a",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "66acd7a2-a60a-4c38-9f90-36b85a198ce9": {
+        "value": {
+            "id": "66acd7a2-a60a-4c38-9f90-36b85a198ce9",
+            "version": 2,
+            "type": "text",
+            "properties": {
+                "title": [
+                    ["The task is considered completed when you send us:"]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "245f8349-4fd0-4103-a097-cdc34b7b9ef6",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "245f8349-4fd0-4103-a097-cdc34b7b9ef6",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "6d2d5af5-e722-49fd-85b8-3db63c1dd8c4": {
+        "value": {
+            "id": "6d2d5af5-e722-49fd-85b8-3db63c1dd8c4",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [["a link to the Github repo with your solution"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "0ee9a17b-4162-4d7b-bad3-435c1fb5999d",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "0ee9a17b-4162-4d7b-bad3-435c1fb5999d",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "f5585bdf-d204-4e74-b781-d6c7c1729c6d": {
+        "value": {
+            "id": "f5585bdf-d204-4e74-b781-d6c7c1729c6d",
+            "version": 44,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    [
+                        "a link to README.md that explains how to launch the project locally"
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "0afc3d2f-2988-45d6-80c7-57f6a8557dc9",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1739788480919,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "0afc3d2f-2988-45d6-80c7-57f6a8557dc9",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "470f4e91-96a5-449e-8d1f-e7673563142c": {
+        "value": {
+            "id": "470f4e91-96a5-449e-8d1f-e7673563142c",
+            "version": 254,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    [
+                        "a live demo: the app can be deployed for free on Vercel, Netlify, Render or any other provider and then published to a telegram bot"
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "32a17f14-33bb-499e-bbab-86a6a1f54eb3",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1739788377946,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "32a17f14-33bb-499e-bbab-86a6a1f54eb3",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "a82cbaa7-0d6d-4dfd-b92c-da3e4d31f631": {
+        "value": {
+            "id": "a82cbaa7-0d6d-4dfd-b92c-da3e4d31f631",
+            "version": 2,
+            "type": "sub_sub_header",
+            "properties": {
+                "title": [["What are we going to look at?"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "378935a2-dc8d-493e-92b8-ed868e6d856f",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "378935a2-dc8d-493e-92b8-ed868e6d856f",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "1447a30d-29f2-45b8-a829-19476b079003": {
+        "value": {
+            "id": "1447a30d-29f2-45b8-a829-19476b079003",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    [
+                        "How well can you set the deadlines and complete the task in the specified amount of time"
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "a67b2781-6d69-481f-9f8b-e5a299aaf728",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "a67b2781-6d69-481f-9f8b-e5a299aaf728",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "87125349-cb61-4b6a-8607-27d588f6aeee": {
+        "value": {
+            "id": "87125349-cb61-4b6a-8607-27d588f6aeee",
+            "version": 275,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    [
+                        "be built with Typescript (any stack of libraries/frameworks based on React/Node.js are acceptable)"
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "2f69f161-4c9d-4e64-a2b8-bb921f9359c6",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736232147581,
+            "parent_id": "24bc5caf-5374-405f-b439-a7894624b24f",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "2f69f161-4c9d-4e64-a2b8-bb921f9359c6",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "ac74106e-f993-4c72-95ae-9df1ad7e1c9f": {
+        "value": {
+            "id": "ac74106e-f993-4c72-95ae-9df1ad7e1c9f",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [["be well-styled and visually appealing"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "1f80076a-09e3-4ebe-85f7-ed84d597caa8",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "24bc5caf-5374-405f-b439-a7894624b24f",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "1f80076a-09e3-4ebe-85f7-ed84d597caa8",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "5a94751e-ee1b-49a4-9771-b6de70daed00": {
+        "value": {
+            "id": "5a94751e-ee1b-49a4-9771-b6de70daed00",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    ["use "],
+                    ["Notion API", [["a", "https://developers.notion.com/"]]],
+                    [" to allow manage the home page content via Notion"]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "58cb64b9-c236-4f6a-bce8-c6fbe379ab2c",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "24bc5caf-5374-405f-b439-a7894624b24f",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "58cb64b9-c236-4f6a-bce8-c6fbe379ab2c",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "1745274b-d2cf-807f-9520-c1490b7cf3fe": {
+        "value": {
+            "id": "1745274b-d2cf-807f-9520-c1490b7cf3fe",
+            "version": 155,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    ["use any "],
+                    [
+                        "TON HTTP-base APIs",
+                        [
+                            [
+                                "a",
+                                "https://docs.ton.org/v3/guidelines/dapps/apis-sdks/ton-http-apis"
+                            ]
+                        ]
+                    ],
+                    [" to fetch necessary on-chain data"]
+                ]
+            },
+            "created_time": 1736232179886,
+            "last_edited_time": 1739787953815,
+            "parent_id": "24bc5caf-5374-405f-b439-a7894624b24f",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "76a474dc-e34e-403a-a37d-22b45e4af358": {
+        "value": {
+            "id": "76a474dc-e34e-403a-a37d-22b45e4af358",
+            "version": 93,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    ["be based on the "],
+                    [
+                        "TON Connect",
+                        [
+                            [
+                                "a",
+                                "https://docs.ton.org/v3/guidelines/ton-connect/overview"
+                            ]
+                        ]
+                    ],
+                    [" authorization standard"]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "6f706f86-e1df-4e7f-bbd6-b78decb4f456",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1739788290007,
+            "parent_id": "24bc5caf-5374-405f-b439-a7894624b24f",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "6f706f86-e1df-4e7f-bbd6-b78decb4f456",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "50b75fed-122e-47b8-b1d9-f3e8f8da7aa4": {
+        "value": {
+            "id": "50b75fed-122e-47b8-b1d9-f3e8f8da7aa4",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["NFT Friendly Address", [["b"]]]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "cc9bc369-29b7-4af3-bbf7-5ec235baade2",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "cc9bc369-29b7-4af3-bbf7-5ec235baade2",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "87e5634a-a248-4923-b0b3-b6b8ddf15a83": {
+        "value": {
+            "id": "87e5634a-a248-4923-b0b3-b6b8ddf15a83",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQCCMrkQtSm5UL9Z963J-qCT3cUcdDq4_j-L-qnQu-stAHc_"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "c05f2fcf-eb7b-4c55-a31f-7cb3190e0779",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "c05f2fcf-eb7b-4c55-a31f-7cb3190e0779",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "52069f79-0783-41fb-80e3-3576ce949dbf": {
+        "value": {
+            "id": "52069f79-0783-41fb-80e3-3576ce949dbf",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQBrDW9gmTHEBtqfBujYYXoRiH1FybEuVFW8_6HJZ6UyQx2N"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "60757b0a-9a73-45d7-86a5-fdab3f2b4e8d",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "60757b0a-9a73-45d7-86a5-fdab3f2b4e8d",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "313c9c9c-da9e-495a-b917-30fcc2e85270": {
+        "value": {
+            "id": "313c9c9c-da9e-495a-b917-30fcc2e85270",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQC67RicSpi7a_s7ULYMRzcFt-XKNsdQOfZISN7pCFQL-8Ms"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "6edb9f6c-2dea-4951-a12d-7d35f0540016",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "6edb9f6c-2dea-4951-a12d-7d35f0540016",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "db94f7c8-5ed9-4c0c-8385-5125916a8a16": {
+        "value": {
+            "id": "db94f7c8-5ed9-4c0c-8385-5125916a8a16",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAGCApwssMcC0MT5tnhF0_eBulMB9iU9I2l5OZd8ZTCzEnA"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "a674fc9b-9c58-49b4-8d68-143fa91bbaaf",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "a674fc9b-9c58-49b4-8d68-143fa91bbaaf",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "01e047c4-b9a1-4a53-9b76-1a4cd37328ac": {
+        "value": {
+            "id": "01e047c4-b9a1-4a53-9b76-1a4cd37328ac",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAcWYauQmOjTn60TkHSqeaqnuWGGhqEf8ewZGiL37LBg5yo"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "3d3cb6c4-211e-43fa-98c2-0acdd2fdca14",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "3d3cb6c4-211e-43fa-98c2-0acdd2fdca14",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "100136f0-21e6-4ea3-91c8-2526fecaa8ca": {
+        "value": {
+            "id": "100136f0-21e6-4ea3-91c8-2526fecaa8ca",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQCCxzVmcW0f6frVsKTb0E5nMAcTC2o2907wIbAOCj7tBYRg"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "e783c161-e149-4890-b779-ac511ba262f6",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "e783c161-e149-4890-b779-ac511ba262f6",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "e0dced53-fdc1-4202-82ce-486fc1ed0044": {
+        "value": {
+            "id": "e0dced53-fdc1-4202-82ce-486fc1ed0044",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQA-S-WDMq34lFOB_Li0SpSyCbEB1SBrR66D7gSArTLAmqXm"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "ab5e1b53-b198-44c2-86a6-0fb9685df979",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "ab5e1b53-b198-44c2-86a6-0fb9685df979",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "6f07fda0-104b-4f61-a9c7-f25d8feac2df": {
+        "value": {
+            "id": "6f07fda0-104b-4f61-a9c7-f25d8feac2df",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAdw9hJwSymoT2Vjh4rA1pz2Xifc7qNGy_NryrnsP1Q8ppG"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "fbe49464-ae43-494c-be7d-eae21057f741",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "fbe49464-ae43-494c-be7d-eae21057f741",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "b3bec752-b620-4f46-ac8b-87b40d0c7525": {
+        "value": {
+            "id": "b3bec752-b620-4f46-ac8b-87b40d0c7525",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQCt9lzd02F8UqSB0SyAPCCgTINnnMYHYFbUWd8VgLzeUXL8"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "ec76d89c-8c71-4c23-bbf4-9e107b344361",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "ec76d89c-8c71-4c23-bbf4-9e107b344361",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "09c5fc1e-405d-4536-9ac2-b61efa48f379": {
+        "value": {
+            "id": "09c5fc1e-405d-4536-9ac2-b61efa48f379",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAXR72dxnl3ERBQos7Nok8mnBMGt-anJXrHG-pEcXutfr7s"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "11c87bdb-53f1-4e7f-977d-1eed6a522225",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "11c87bdb-53f1-4e7f-977d-1eed6a522225",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "96f257bb-e5b0-4a4d-86d4-3e9abe751a0c": {
+        "value": {
+            "id": "96f257bb-e5b0-4a4d-86d4-3e9abe751a0c",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQCUNh0Def4W0Xs88ZLisWLSUB_KhP8gtSS70UcKqb0p22j1"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "787e993e-af47-46c9-83c8-7c7b17b8ef43",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "787e993e-af47-46c9-83c8-7c7b17b8ef43",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "b532493b-30f4-4257-a0dc-1640231dfc32": {
+        "value": {
+            "id": "b532493b-30f4-4257-a0dc-1640231dfc32",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQDvOzZuJW-4RIuKdZ8VvxxHIIEjDnJ9Jo1pYJxr-t6roM9i"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "3d7bf066-1492-496e-b1c1-8e902afd42d9",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "3d7bf066-1492-496e-b1c1-8e902afd42d9",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "c7ae887b-cdde-42de-a813-e673d2959df8": {
+        "value": {
+            "id": "c7ae887b-cdde-42de-a813-e673d2959df8",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAhne4d9SLXpSxZHSTa0MrnoVf_HyykVTs7mRXBpRj_35WN"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "92b38eca-8494-4e99-8ae6-794ebbac761c",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "92b38eca-8494-4e99-8ae6-794ebbac761c",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "3a41364e-bd5c-492a-b2c1-c7e780f078c4": {
+        "value": {
+            "id": "3a41364e-bd5c-492a-b2c1-c7e780f078c4",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAEL6hfew7sP-B04905hsEj2Io9UbTv8bRlfGrcePxHpv9d"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "b56f7995-a521-493d-99d4-00c9622ee099",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "b56f7995-a521-493d-99d4-00c9622ee099",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "d558e85b-5de8-47af-ae4a-a3e8c621cd51": {
+        "value": {
+            "id": "d558e85b-5de8-47af-ae4a-a3e8c621cd51",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQCPLT6jZswEFa724GJtHYnlHo7zpJ9nXwAVOUprCQBwgRGs"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "425ca675-bff0-40c7-84d4-03a98a3733ef",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "425ca675-bff0-40c7-84d4-03a98a3733ef",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "c860c809-ada3-4a08-9ba6-18dfaca9430e": {
+        "value": {
+            "id": "c860c809-ada3-4a08-9ba6-18dfaca9430e",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQDIlm91sROp-JQ6d4WkjVhi7ZF-uHHgDy-dKbZE9zsuXvNy"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "75f2be06-eaa7-4ba8-83dd-37d391099e69",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "75f2be06-eaa7-4ba8-83dd-37d391099e69",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "9268b7bb-ca32-43b6-b607-f0264f67fee2": {
+        "value": {
+            "id": "9268b7bb-ca32-43b6-b607-f0264f67fee2",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAIEXIOkbikNVVxc2HSFyXHfFm0d-zbLUyv2RKZvvIO6R-V"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "068de16b-3832-41c1-a09a-dec19c8cc4d4",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "068de16b-3832-41c1-a09a-dec19c8cc4d4",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "ca8c8744-52d2-4027-99c4-74704f3ba658": {
+        "value": {
+            "id": "ca8c8744-52d2-4027-99c4-74704f3ba658",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQDofgUWeO4HFrbLxBPkZFVm844cc-34Ir2JnrpHZeGpBCnz"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "cdac50a1-bc20-4db9-b511-14fdc4584a25",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "cdac50a1-bc20-4db9-b511-14fdc4584a25",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "0c37e886-7f0b-4117-91e9-41b103f0ecb5": {
+        "value": {
+            "id": "0c37e886-7f0b-4117-91e9-41b103f0ecb5",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQD7Eg3nD7TJQie5XdE9JgjJCFinLHAVV-k1G6HxFIHfN5Co"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "c47c0547-7df8-4544-9fc6-7eab477a984b",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "c47c0547-7df8-4544-9fc6-7eab477a984b",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "302d5624-dd31-42d4-9464-6afb83989615": {
+        "value": {
+            "id": "302d5624-dd31-42d4-9464-6afb83989615",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQDLA7pb7PIAl76etKs988JIpatxvYDGDrIyhAAt6yH4XGzV"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "2f2a9827-9f4d-471a-9a7a-fa97bebf1353",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "2f2a9827-9f4d-471a-9a7a-fa97bebf1353",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "11296c9a-3a1a-40cb-a9f4-ea51a6bc7fbd": {
+        "value": {
+            "id": "11296c9a-3a1a-40cb-a9f4-ea51a6bc7fbd",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQBmYG3RIis1QT6xo43LxOCVLHdm4YxAHR4GSE6pDhDuG_81"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "26a2daf6-3f99-4a09-97ee-34dad73aedd8",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "26a2daf6-3f99-4a09-97ee-34dad73aedd8",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "7f22661c-fbab-422f-90a0-e2040c3662ac": {
+        "value": {
+            "id": "7f22661c-fbab-422f-90a0-e2040c3662ac",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQBxZ5CjJpKDrJJqvdpXZ2phJDFVLnKyjkRWaZzDq7dIQBiQ"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "5f0898d1-db24-44a7-a6f9-6a6d59dd2b45",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "5f0898d1-db24-44a7-a6f9-6a6d59dd2b45",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "0d08efb1-3420-4d47-8318-c9bc236675e5": {
+        "value": {
+            "id": "0d08efb1-3420-4d47-8318-c9bc236675e5",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQCsmMzx6HzMvfcqFk9kDfsl-cSZJ2oi7WvuIa3GuXMzvRdN"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "a5199672-0081-4bb2-9e7b-e838235ae6c4",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "a5199672-0081-4bb2-9e7b-e838235ae6c4",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "06d84a5f-3d4f-48d5-854a-c0a76bbe543b": {
+        "value": {
+            "id": "06d84a5f-3d4f-48d5-854a-c0a76bbe543b",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAoCYiUH6Yuyy4gR2ql9S7Hnm4tAZFgKEHLV7ePrLWAoqM0"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "167532cd-b954-4d9c-abe8-3a14e7ec6f64",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "167532cd-b954-4d9c-abe8-3a14e7ec6f64",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "dc3c0c81-c3cb-4101-8950-d3a1e383c105": {
+        "value": {
+            "id": "dc3c0c81-c3cb-4101-8950-d3a1e383c105",
+            "version": 2,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAQr7hhgZwsMUuz8oybcZNtd3mbeA5dRUy0jynECaibSpFq"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "347526c0-876e-4bed-a0d2-5aa6f6f34b60",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916195,
+            "last_edited_time": 1736231916206,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "347526c0-876e-4bed-a0d2-5aa6f6f34b60",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "1745274b-d2cf-80ad-88b6-fd4ad0a2c8c7": {
+        "value": {
+            "id": "1745274b-d2cf-80ad-88b6-fd4ad0a2c8c7",
+            "version": 9,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQBEFhxV7o7ZtPP5fivxtSEX5wty0cspW3sisr3SYnv9en9X"]]
+            },
+            "created_time": 1736232286436,
+            "last_edited_time": 1736232366978,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "1745274b-d2cf-8015-ab72-f6c2012477d3": {
+        "value": {
+            "id": "1745274b-d2cf-8015-ab72-f6c2012477d3",
+            "version": 5,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQCIV6hE-HGM6QFs3I0aI5it64uBHuE7c05nvinXpWq53CzU"]]
+            },
+            "created_time": 1736232367625,
+            "last_edited_time": 1736232385648,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "1745274b-d2cf-8023-b346-fe0102090352": {
+        "value": {
+            "id": "1745274b-d2cf-8023-b346-fe0102090352",
+            "version": 5,
+            "type": "table_row",
+            "properties": {
+                "Iqwq": [["EQAqG_XlqIbRp406Mtc60I2D7mMW0MX-rpBGB9TrvMHKV1bE"]]
+            },
+            "created_time": 1736232386414,
+            "last_edited_time": 1736232423021,
+            "parent_id": "babb2702-5a70-4876-a297-39cfa07c13b1",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "19d5274b-d2cf-80da-9359-d11e087279d2": {
+        "value": {
+            "id": "19d5274b-d2cf-80da-9359-d11e087279d2",
+            "version": 246,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    [
+                        "How well can you find the necessary information in the documentation and make decisions based on your research"
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "e00a2174-14ec-4c25-a68d-a64b5c056638",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1739788177602,
+            "last_edited_time": 1739788211312,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "c008e1ce-66b7-402b-a420-c80463034c05": {
+        "value": {
+            "id": "c008e1ce-66b7-402b-a420-c80463034c05",
+            "version": 102,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    [
+                        "How well do you understand the concept of SSR, CSR, ISR (incremental static regeneration), rehydration, and different rendering techniques"
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "e00a2174-14ec-4c25-a68d-a64b5c056638",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736232135802,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "e00a2174-14ec-4c25-a68d-a64b5c056638",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "0756b0a7-c9d0-4f5a-a6f4-ed4c060e3d70": {
+        "value": {
+            "id": "0756b0a7-c9d0-4f5a-a6f4-ed4c060e3d70",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [["How well can you work on your own"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "46207c88-97e6-4157-b4c4-1207f7863568",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "46207c88-97e6-4157-b4c4-1207f7863568",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "b1801ef3-38c4-4ed2-9d63-1b0f340a9b76": {
+        "value": {
+            "id": "b1801ef3-38c4-4ed2-9d63-1b0f340a9b76",
+            "version": 2,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    ["How well can you communicate your questions/concerns"]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "0ad5f139-fcb1-466e-a0b4-ad1b1af3ddb1",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "0ad5f139-fcb1-466e-a0b4-ad1b1af3ddb1",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "6b29ca1a-da06-432d-a4ae-72252a19463e": {
+        "value": {
+            "id": "6b29ca1a-da06-432d-a4ae-72252a19463e",
+            "version": 2,
+            "type": "sub_sub_header",
+            "properties": {
+                "title": [["Recommendations"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "93870caa-b7d8-4921-b157-8ac8a22a1914",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "93870caa-b7d8-4921-b157-8ac8a22a1914",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "98df7138-3b24-4525-80b6-bd73c97ca84e": {
+        "value": {
+            "id": "98df7138-3b24-4525-80b6-bd73c97ca84e",
+            "version": 10,
+            "type": "bulleted_list",
+            "properties": {
+                "title": [
+                    [
+                        "Feel free to use any sort of packages and libraries necessary to complete the task"
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "7862a19d-fe2f-4acd-b22f-2b3b22d72cda",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1739788325091,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "7862a19d-fe2f-4acd-b22f-2b3b22d72cda",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "28c81855-eb28-4ca7-b549-39c44933afac": {
+        "value": {
+            "id": "28c81855-eb28-4ca7-b549-39c44933afac",
+            "version": 2,
+            "type": "sub_sub_header",
+            "properties": {
+                "title": [["References"]]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "39f7ee0d-905b-4787-8f83-0baf95e19b0c",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "39f7ee0d-905b-4787-8f83-0baf95e19b0c",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "19d5274b-d2cf-8011-9668-dd39feb6daee": {
+        "value": {
+            "id": "19d5274b-d2cf-8011-9668-dd39feb6daee",
+            "version": 5,
+            "type": "text",
+            "properties": {
+                "title": [
+                    [
+                        "https://core.telegram.org/bots/webapps",
+                        [["a", "https://core.telegram.org/bots/webapps"]]
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "0bddc2de-aafb-4dd8-bb25-99b7ef434ee5",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1739788314129,
+            "last_edited_time": 1739788314851,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "2f4f30b6-ed09-4a31-ab45-f2c49e0261f8": {
+        "value": {
+            "id": "2f4f30b6-ed09-4a31-ab45-f2c49e0261f8",
+            "version": 2,
+            "type": "text",
+            "properties": {
+                "title": [
+                    [
+                        "https://developers.notion.com",
+                        [["a", "https://developers.notion.com/"]]
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "0bddc2de-aafb-4dd8-bb25-99b7ef434ee5",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1736231916206,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "0bddc2de-aafb-4dd8-bb25-99b7ef434ee5",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "18c82011-62d8-4ea1-bd44-18ad5f5b5af2": {
+        "value": {
+            "id": "18c82011-62d8-4ea1-bd44-18ad5f5b5af2",
+            "version": 6,
+            "type": "text",
+            "properties": {
+                "title": [
+                    [
+                        "https://docs.ton.org/v3/guidelines/dapps/apis-sdks/ton-http-apis",
+                        [
+                            [
+                                "a",
+                                "https://docs.ton.org/v3/guidelines/dapps/apis-sdks/ton-http-apis"
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "format": {
+                "copied_from_pointer": {
+                    "id": "606587d5-2743-410a-b109-de49f5a39b2e",
+                    "table": "block",
+                    "spaceId": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+                }
+            },
+            "created_time": 1736231916194,
+            "last_edited_time": 1739788245563,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "606587d5-2743-410a-b109-de49f5a39b2e",
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    },
+    "19d5274b-d2cf-8067-bbdf-d3f3a6784f32": {
+        "value": {
+            "id": "19d5274b-d2cf-8067-bbdf-d3f3a6784f32",
+            "version": 5,
+            "type": "text",
+            "properties": {
+                "title": [
+                    [
+                        "https://docs.ton.org/v3/guidelines/ton-connect/overview",
+                        [
+                            [
+                                "a",
+                                "https://docs.ton.org/v3/guidelines/ton-connect/overview"
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "created_time": 1739788299312,
+            "last_edited_time": 1739788299536,
+            "parent_id": "1745274b-d2cf-8068-9ec0-dec263902ac8",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "6a094972-b8a0-4fad-90e1-8ad77da3c239"
+        },
+        "role": "reader"
+    }
+}
