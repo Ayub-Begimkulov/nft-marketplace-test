@@ -1,6 +1,11 @@
 import dotenv from "dotenv";
 
-const REQUIRED_ENV = ["BOT_TOKEN"] as const;
+const REQUIRED_ENV = [
+    "BOT_TOKEN",
+    "REDIS_URL",
+    "NOTION_API_KEY",
+    "NOTION_PAGE_ID",
+] as const;
 
 type EnvKeys = (typeof REQUIRED_ENV)[number];
 type EnvConfig = Record<EnvKeys, string>;

@@ -1,0 +1,29 @@
+{
+    "nfts": [
+        {
+            "friendlyAddress": "EQCCMrkQtSm5UL9Z963J-qCT3cUcdDq4_j-L-qnQu-stAHc_",
+            "rawAddress": "0:8232B910B529B950BF59F7ADC9FAA093DDC51C743AB8FE3F8BFAA9D0BBEB2D00",
+            "image": "https://s.getgems.io/nft/b/c/658016abc616338ec7eec1e4/img/TheNutcrackersLefthand.png",
+            "name": "The Nutcracker's Right hand",
+            "description": "1/6 part of the Nutcracker from the fairy tales of the New Year's cryptocurrency adventure. Collect the rest of the body parts in order to mint the whole character. This NFT is part of the exclusive WEB3 X-MAS 2024 holiday collection."
+        },
+        {
+            "friendlyAddress": "EQBrDW9gmTHEBtqfBujYYXoRiH1FybEuVFW8_6HJZ6UyQx2N",
+            "rawAddress": "0:6B0D6F609931C406DA9F06E8D8617A11887D45C9B12E5455BCFFA1C967A53243"
+        },
+        {
+            "friendlyAddress": "EQC67RicSpi7a_s7ULYMRzcFt-XKNsdQOfZISN7pCFQL-8Ms",
+            "rawAddress": "0:BAED189C4A98BB6BFB3B50B60C473705B7E5CA36C75039F64848DEE908540BFB"
+        },
+        {
+            "friendlyAddress": "EQAGCApwssMcC0MT5tnhF0_eBulMB9iU9I2l5OZd8ZTCzEnA",
+            "rawAddress": "0:06080A70B2C31C0B4313E6D9E1174FDE06E94C07D894F48DA5E4E65DF194C2CC"
+        },
+        {
+            "friendlyAddress": "EQAcWYauQmOjTn60TkHSqeaqnuWGGhqEf8ewZGiL37LBg5yo",
+            "rawAddress": "0:1C5986AE4263A34E7EB44E41D2A9E6AA9EE5861A1A847FC7B064688BDFB2C183"
+        }
+    ],
+    "hasMore": true,
+    "nextCursor": "1a917fc9-53af-810b-bbe5-c5be7819520a"
+}

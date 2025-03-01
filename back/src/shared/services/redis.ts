@@ -1,4 +1,7 @@
-import { Redis } from "ioredis";
+import { Redis, RedisKey } from "ioredis";
+import { getEnv } from "../utils/get-env.js";
+import { logger } from "../utils/logger.js";
+import { JSONSerializable } from "../types/index.js";
 
 const DEFAULT_WAIT_EVENT_TIMEOUT = 5_000;
 
@@ -11,18 +14,40 @@ class RedisCache {
         this.subRedis = new Redis(url);
     }
 
-    set(key: string, value: string | Buffer | number) {
-        return this.redis.set(key, value);
+    async get<T>(key: RedisKey) {
+        try {
+            const data = await this.redis.get(key);
+
+            if (data === null) {
+                return null;
+            }
+
+            return JSON.parse(data) as T;
+        } catch (error) {
+            logger.error("[RedisCache.get]", error);
+            return null;
+        }
     }
 
-    publish(channel: string | Buffer, message: string | Buffer) {
-        return this.redis.publish(channel, message);
+    async set(key: RedisKey, value: JSONSerializable) {
+        try {
+            const string = JSON.stringify(value);
+            await this.redis.set(key, string);
+        } catch (error) {
+            logger.error("[RedisCache.set]", error);
+        }
     }
 
-    waitForEvent(
-        channel: string | Buffer,
-        timeout = DEFAULT_WAIT_EVENT_TIMEOUT,
-    ) {
+    async publish(channel: RedisKey, message: JSONSerializable) {
+        try {
+            const string = JSON.stringify(message);
+            await this.redis.publish(channel, string);
+        } catch (error) {
+            logger.error("[RedisCache.publish]", error);
+        }
+    }
+
+    waitForEvent(channel: RedisKey, timeout = DEFAULT_WAIT_EVENT_TIMEOUT) {
         return new Promise<void>((resolve, reject) => {
             const timeoutId = setTimeout(() => {
                 reject(new Error("Exceeded timeout while waiting for event"));
@@ -30,7 +55,7 @@ class RedisCache {
                 this.subRedis.unsubscribe(channel);
             }, timeout);
 
-            this.subRedis.subscribe(channel, (error) => {
+            this.subRedis.subscribe(channel, (error, value) => {
                 clearTimeout(timeoutId);
 
                 if (error) {
@@ -45,4 +70,4 @@ class RedisCache {
     }
 }
 
-export const redisCache = new RedisCache("redis://localhost:6379");
+export const redisCache = new RedisCache(getEnv().REDIS_URL);
