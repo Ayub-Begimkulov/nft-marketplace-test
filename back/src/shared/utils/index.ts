@@ -1,2 +1,2 @@
-export { getEnv } from "./get-env";
-export { isNumber } from "./is-number";
+export { getEnv } from "./get-env.js";
+export { isNumber } from "./is-number.js";

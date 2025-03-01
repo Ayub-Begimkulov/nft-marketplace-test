@@ -1,1 +1,1 @@
-export { nftsRouter } from "./router";
+export { nftsRouter } from "./router.js";

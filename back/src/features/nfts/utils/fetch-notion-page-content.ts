@@ -1,11 +1,12 @@
-import { formatNotionId } from "./format-notion-id";
+import { BlockMap, PageChunk } from "notion-types";
+import { formatNotionId } from "./format-notion-id.js";
 
 const LIMIT = 100;
 const NOTION_API_URL = "https://www.notion.so/api/v3";
 
 export async function fetchNotionPageContent(pageId: string) {
-    const blocks: Record<string, any> = {};
-    let cursor = {
+    const blocks: BlockMap = {};
+    let cursor: PageChunk["cursor"] = {
         stack: [],
     };
 
@@ -28,12 +29,14 @@ export async function fetchNotionPageContent(pageId: string) {
             }),
         });
 
-        const data = await response.json();
+        const data = (await response.json()) as PageChunk;
 
         cursor = data.cursor;
 
         for (const key in data.recordMap.block) {
-            blocks[key] = data.recordMap.block[key];
+            const block = data.recordMap.block[key]!;
+
+            blocks[key] = block;
         }
     } while (cursor.stack.length > 0);
 
