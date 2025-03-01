@@ -2,6 +2,7 @@ export type JSONSerializable =
     | string
     | number
     | boolean
+    | null
     | JSONObject
     | JSONArray;
 

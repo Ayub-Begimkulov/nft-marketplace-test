@@ -5,9 +5,9 @@ TODO:
 -   ton connect auth (TODO do we need ton_proof?)
 -   pages api
 
-    -   pagination - done
-    -   fetch nft data - done, but still problems with image/name/description
     -   caching??
+    -   fetch nft data - done, but still problems with image/name/description
+        -   correct typings?
 
 -   env
     -   ton center url

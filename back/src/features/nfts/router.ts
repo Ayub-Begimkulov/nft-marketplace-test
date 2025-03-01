@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { fetchNFTs } from "./utils/fetch-table-id.js";
+import { fetchNFTs } from "./services/nfts.js";
 import { getEnv } from "../../shared/utils/get-env.js";
 
 export const nftsRouter = new Hono();
