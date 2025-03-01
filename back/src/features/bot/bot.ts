@@ -1,7 +1,7 @@
 import { Telegraf } from "telegraf";
 import { testLuckMiddleware } from "./test-luck-middleware";
 import { startMarkup, BUTTON_ACTIONS } from "./markup";
-import { getEnv } from "../utils/get-env";
+import { getEnv } from "../../shared/utils/get-env";
 
 export const bot = new Telegraf(getEnv().BOT_TOKEN);
 
