@@ -1,5 +1,5 @@
 import { Context } from "telegraf";
-import { testLuckMarkup } from "./markup";
+import { testLuckMarkup } from "./markup.js";
 
 const diceEmoji = [
     {

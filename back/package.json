@@ -2,6 +2,7 @@
     "name": "bot",
     "version": "1.0.0",
     "main": "./dist/server.js",
+    "type": "module",
     "scripts": {
         "dev": "tsx watch ./src/server.ts"
     },
@@ -11,11 +12,16 @@
     "description": "",
     "devDependencies": {
         "@types/node": "^22.13.5",
+        "dotenv": "^16.4.7",
         "tsx": "^4.19.3",
         "typescript": "^5.7.3"
     },
     "dependencies": {
-        "dotenv": "^16.4.7",
+        "@hono/node-server": "^1.13.8",
+        "@notionhq/client": "^2.2.16",
+        "@ton/core": "^0.60.1",
+        "hono": "^4.7.2",
+        "ioredis": "^5.5.0",
         "telegraf": "^4.16.3"
     }
 }
