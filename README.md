@@ -12,8 +12,9 @@ tech solutions write:
 
 TODO:
 
--   handle client side loading
-    -   virtual list
-    -   etc.
+-   ky backend???
 -   ui/ux
+-   manifest
+-   test in tg + return mode
+-   full screen mode?
 -   deploy

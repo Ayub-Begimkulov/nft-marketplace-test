@@ -1,9 +1,9 @@
 import { Route } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { TonConnectProvider } from "./components/TonConnectProvider";
+import { TonConnectProvider } from "./shared/components/TonConnectProvider";
 import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
-import { AuthOnly, GuestOnly } from "./components/RouteGuards";
+import { AuthOnly, GuestOnly } from "./shared/components/RouteGuards";
 
 const queryClient = new QueryClient();
 

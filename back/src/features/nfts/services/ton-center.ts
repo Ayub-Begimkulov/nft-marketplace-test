@@ -104,18 +104,10 @@ export async function fetchNFTData(addresses: string[]) {
                 rawAddress: item.address,
                 ownerAddress: item.owner_address,
                 image:
-                    meta?.extra?._image_medium ??
-                    collectionMeta?.extra?._image_medium,
+                    meta?.extra?._image_big ??
+                    collectionMeta?.extra?._image_big,
                 name: meta?.name ?? collectionMeta?.name,
                 description: meta?.description ?? collectionMeta?.description,
-                // @ts-expect-error
-                test: {
-                    image: meta?.image ?? collectionMeta?.image,
-
-                    cover:
-                        meta?.extra?.cover_image ??
-                        collectionMeta?.extra?.cover_image,
-                },
             });
         });
 
