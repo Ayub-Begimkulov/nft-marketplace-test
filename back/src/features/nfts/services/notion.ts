@@ -1,12 +1,11 @@
-import { Client, isNotionClientError, APIErrorCode } from "@notionhq/client";
+import { Client, isNotionClientError } from "@notionhq/client";
 import { ListBlockChildrenResponse } from "@notionhq/client/build/src/api-endpoints.js";
 import { Address } from "@ton/core";
 import {
     isString,
     logger,
     getEnv,
-    isEnum,
-    createHTTPException,
+    AppHTTPException,
 } from "../../../shared/utils/index.js";
 
 const notionClient = new Client({ auth: getEnv().NOTION_API_KEY });
@@ -90,13 +89,11 @@ export async function fetchNFTAddressesFromTable(
 
 function createException(error: unknown) {
     const status =
-        isNotionClientError(error) && isEnum(APIErrorCode, error.code)
-            ? 400
-            : 500;
+        isNotionClientError(error) && "status" in error ? error.status : 500;
 
-    const message = isNotionClientError(error)
-        ? error.message
-        : "Internal server error";
-
-    return createHTTPException({ status, message });
+    return new AppHTTPException({
+        status,
+        message: "Error happened trying to fetch data from notion",
+        details: isNotionClientError(error) ? error.message : undefined,
+    });
 }

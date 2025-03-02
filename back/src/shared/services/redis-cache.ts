@@ -2,8 +2,6 @@ import { Redis } from "ioredis";
 import { getEnv, isNumber, logger } from "../utils/index.js";
 import { JSONSerializable } from "../types/index.js";
 
-const DEFAULT_WAIT_EVENT_TIMEOUT = 5_000;
-
 type RedisSetOption = {
     NX?: boolean;
     EX?: number;
@@ -11,11 +9,9 @@ type RedisSetOption = {
 
 class RedisCache {
     private redis: Redis;
-    private subRedis: Redis;
 
     constructor(url: string) {
         this.redis = new Redis(url);
-        this.subRedis = new Redis(url);
     }
 
     async get<T>(key: string) {
@@ -44,14 +40,7 @@ class RedisCache {
                 ? (buildOptions(options) as [])
                 : ([] as []);
 
-            const result = await this.redis.set(
-                key,
-                string,
-                ...optionsList,
-                "GET",
-            );
-
-            console.log("set result", result, optionsList);
+            const result = await this.redis.set(key, string, ...optionsList);
 
             if (result === null) {
                 return;
@@ -70,45 +59,6 @@ class RedisCache {
         } catch (error) {
             logger.error("[RedisCache.delete]", error);
             return;
-        }
-    }
-
-    async publish(channel: string, message: JSONSerializable) {
-        try {
-            const string = JSON.stringify(message);
-            await this.redis.publish(channel, string);
-        } catch (error) {
-            logger.error("[RedisCache.publish]", error);
-        }
-    }
-
-    async waitForEvent(channel: string, timeout = DEFAULT_WAIT_EVENT_TIMEOUT) {
-        try {
-            await this.subRedis.subscribe(channel);
-
-            const result = await new Promise<string>((resolve, reject) => {
-                const handleMessage = (mChannel: string, message: string) => {
-                    if (channel === mChannel) {
-                        resolve(message);
-                    }
-                    clearTimeout(timeoutId);
-                };
-
-                this.subRedis.on("message", handleMessage);
-
-                // timeout so we don't wait for event indefinitely
-                const timeoutId = setTimeout(() => {
-                    reject(
-                        new Error("Exceeded timeout while waiting for event"),
-                    );
-
-                    this.subRedis.off("message", handleMessage);
-                }, timeout);
-            });
-
-            return JSON.parse(result);
-        } catch (error) {
-            logger.error("[RedisCache.waitForEvent]", error);
         }
     }
 }

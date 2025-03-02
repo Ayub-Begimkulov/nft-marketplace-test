@@ -1,20 +1,22 @@
 import { isString } from "../../../shared/utils/index.js";
 import { redisCache } from "../../../shared/services/redis-cache.js";
 import { fetchNFTAddressesFromTable, fetchTableId } from "./notion.js";
-import { fetchNFTData } from "./ton-center.js";
+import { fetchNFTData, NFTItemData } from "./ton-center.js";
 
 const cacheKeys = {
-    tableId: "nfts:table-id",
+    tableId: (pageId: string) => `nfts:table-id:${pageId}`,
     nftsData: (pageId: string, pageSize: number, cursor?: string) =>
         `nfts:${pageId}:${pageSize}:${cursor ?? "__start__"}`,
-    nftsDataLock: (pageId: string, pageSize: number, cursor?: string) =>
-        cacheKeys.nftsData(pageId, pageSize, cursor) + ":lock",
 };
+
+// I'm caching table id for 1h, since it
+// shouldn't change at all unless someone deletes
+// it from the page.
+const TABLE_ID_TTL = 60 * 60;
 const NFT_DATA_TTL = 60 * 15;
 
-// TODO lock?
 async function fetchTableIdWithCache(pageId: string) {
-    let tableId = await redisCache.get<string>(cacheKeys.tableId);
+    let tableId = await redisCache.get<string>(cacheKeys.tableId(pageId));
 
     if (isString(tableId)) {
         return tableId;
@@ -27,15 +29,15 @@ async function fetchTableIdWithCache(pageId: string) {
     }
 
     // don't wait for cache to be set...
-    // redisCache.set(cacheKeys.tableId, tableId);
+    redisCache.set(cacheKeys.tableId(pageId), tableId, { EX: TABLE_ID_TTL });
 
     return tableId;
 }
 
-type NFTData = {
-    nfts: any[];
-    nextCursor?: string;
+type NFTDataPaginated = {
+    nfts: NFTItemData[];
     hasMore: boolean;
+    nextCursor?: string;
 };
 
 export async function fetchNFTs(
@@ -54,62 +56,28 @@ export async function fetchNFTs(
 
     const nftsDataCacheKey = cacheKeys.nftsData(pageId, pageSize, startCursor);
 
-    let data = await redisCache.get(nftsDataCacheKey);
+    let data = await redisCache.get<NFTDataPaginated>(nftsDataCacheKey);
 
     if (data) {
-        console.log("cache hit!!!");
         return data;
     }
 
-    const nftsDataCacheLockKey = cacheKeys.nftsDataLock(
-        pageId,
+    const nftAddressesResponse = await fetchNFTAddressesFromTable(
+        tableId,
         pageSize,
         startCursor,
     );
-    const randomLockValue = Math.random().toString(36);
 
-    const lockValue = await redisCache.set(
-        nftsDataCacheLockKey,
-        randomLockValue,
-        {
-            NX: true,
-            EX: 5,
-        },
-    );
+    const nftData = await fetchNFTData(nftAddressesResponse.nfts);
 
-    console.log(lockValue);
+    const result: NFTDataPaginated = {
+        nfts: nftData,
+        hasMore: nftAddressesResponse.hasMore,
+        nextCursor: nftAddressesResponse.nextCursor ?? undefined,
+    };
 
-    if (lockValue) {
-        const nftAddressesResponse = await fetchNFTAddressesFromTable(
-            tableId,
-            pageSize,
-            startCursor,
-        );
+    // do not wait for cache to be set...
+    redisCache.set(nftsDataCacheKey, result, { EX: NFT_DATA_TTL });
 
-        const nftData = await fetchNFTData(nftAddressesResponse.nfts);
-
-        const result = {
-            nfts: nftData,
-            hasMore: nftAddressesResponse.hasMore,
-            nextCursor: nftAddressesResponse.nextCursor,
-        };
-
-        await redisCache.set(nftsDataCacheKey, result, { EX: NFT_DATA_TTL });
-
-        const newLockValue = await redisCache.get(nftsDataCacheLockKey);
-
-        // should we make this check???
-        if (newLockValue === lockValue) {
-            await redisCache.delete(nftsDataCacheLockKey);
-        }
-
-        redisCache.publish(nftsDataCacheLockKey, "");
-
-        return result;
-    } else {
-        await redisCache.waitForEvent(
-            cacheKeys.nftsDataLock(pageId, pageSize, startCursor),
-        );
-        return redisCache.get(nftsDataCacheKey);
-    }
+    return result;
 }

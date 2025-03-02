@@ -1,16 +1,17 @@
 # NFT Marketplace Take-home
 
+tech solutions write:
+
+-   no "locks" for redis
+-   no "ton_proof" auth (ask???)
+-   primitive error handling / logging
+-   table is caching
+-   nfts might not have image/name/description
+-   architecture / code
+-   page size is hardcoded
+
 TODO:
 
--   ton connect auth (TODO do we need ton_proof?)
--   pages api
-
-    -   caching??
-    -   fetch nft data - done, but still problems with image/name/description
-        -   correct typings?
-
--   env
-    -   ton center url
 -   handle client side loading
     -   virtual list
     -   etc.
