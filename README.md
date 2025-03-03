@@ -9,12 +9,15 @@ tech solutions write:
 -   nfts might not have image/name/description
 -   architecture / code
 -   page size is hardcoded
+-   table matching
 
 TODO:
 
 -   ky backend???
 -   ui/ux
+    -   wallet check redirect too
 -   manifest
 -   test in tg + return mode
+    -   redirect after wallet open
 -   full screen mode?
 -   deploy
