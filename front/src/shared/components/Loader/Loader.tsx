@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import styles from "./styles.module.scss";
+import styles from "./Loader.module.scss";
 
 type LoaderProps = {
     size?: "small" | "medium" | "big";

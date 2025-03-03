@@ -1,5 +1,5 @@
 import { TonConnectButton } from "@tonconnect/ui-react";
-import styles from "./styles.module.scss";
+import styles from "./Login.module.scss";
 
 export function Login() {
     return (

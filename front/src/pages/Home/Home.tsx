@@ -1,7 +1,7 @@
 import { TonConnectButton } from "@tonconnect/ui-react";
 import { NFTList, useNFTsInfiniteQuery } from "../../features/NFTList";
 import { Loader } from "../../shared/components/Loader";
-import styles from "./styles.module.scss";
+import styles from "./Home.module.scss";
 
 export function Home() {
     const { nfts, isFetching, isError, hasNextPage, fetchNextPage } =

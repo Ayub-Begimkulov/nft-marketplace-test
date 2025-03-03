@@ -1,7 +1,7 @@
 import { VirtualItem } from "@tanstack/react-virtual";
 import { NFTItem } from "../../hooks/queries";
 import { NFTAddress } from "../NFTAddress";
-import styles from "./styles.module.scss";
+import styles from "./NFTListItemCard.module.scss";
 
 type NFTListItemCardProps = {
     virtualItem: VirtualItem;

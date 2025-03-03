@@ -1,6 +1,6 @@
 import { VirtualItem } from "@tanstack/react-virtual";
-import styles from "./styles.module.scss";
 import { Loader } from "../../../../shared/components/Loader";
+import styles from "./NFTListItemLoader.module.scss";
 
 type NFTListItemLoaderProps = {
     virtualItem: VirtualItem;
