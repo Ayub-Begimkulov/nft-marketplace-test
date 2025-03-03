@@ -19,10 +19,10 @@ export type NFTItem = {
 
 function fetchNFTItems(cursor?: string) {
     return api
-        .get(`/nfts`, {
+        .get("nfts", {
             searchParams: cursor
                 ? {
-                      cursor,
+                      cursor: cursor,
                   }
                 : undefined,
         })

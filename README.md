@@ -10,10 +10,9 @@ tech solutions write:
 -   architecture / code
 -   page size is hardcoded
 -   table matching
+-   load more error...
 
 TODO:
-
--   dummy image if not loaded...
 
 -   wallet check redirect too
 -   manifest

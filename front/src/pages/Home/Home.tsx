@@ -18,14 +18,14 @@ export function Home() {
             return <Loader size="big" />;
         }
 
-        if (isError) {
+        if (nfts.length === 0 && isError) {
             return <div>Error happened</div>;
         }
 
         return (
             <NFTList
                 nfts={nfts}
-                hasNextPage={hasNextPage}
+                hasNextPage={hasNextPage && !isError}
                 onEndReached={onEndReached}
             />
         );
