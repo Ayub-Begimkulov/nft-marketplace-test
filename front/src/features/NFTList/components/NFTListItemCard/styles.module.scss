@@ -7,8 +7,9 @@
     .nftListItemCardContent {
         overflow: hidden;
         border-radius: 8px;
-        border: 1px solid lightgrey;
         background-color: white;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+            0 2px 4px -2px rgb(0 0 0 / 0.1);
     }
 
     .nftListItemCardImage {
@@ -19,6 +20,16 @@
     }
 
     .nftListItemCardInfo {
-        padding: 12px 16px;
+        padding: 16px;
+    }
+
+    .nftListItemCardName {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .nftListItemCardDescription {
+        margin-bottom: 8px;
     }
 }

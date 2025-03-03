@@ -1,22 +1,39 @@
-import { useInfiniteQuery } from "@tanstack/react-query";
-import { fetchNFTItems } from "../../../../services/request";
 import { useMemo } from "react";
+import { useInfiniteQuery } from "@tanstack/react-query";
+import { api } from "../../../../shared/services/api";
 
-// TODO remove after testing...
-function sleep(ms: number) {
-    return new Promise<void>((res) => {
-        setTimeout(res, ms);
-    });
+type NFTItemsResponse = {
+    nfts: NFTItem[];
+    hasMore: boolean;
+    nextCursor?: string;
+};
+
+export type NFTItem = {
+    friendlyAddress: string;
+    rawAddress: string;
+    ownerAddress: string;
+    image: string;
+    name: string;
+    description?: string;
+};
+
+function fetchNFTItems(cursor?: string) {
+    return api
+        .get(`/nfts`, {
+            searchParams: cursor
+                ? {
+                      cursor,
+                  }
+                : undefined,
+        })
+        .json<NFTItemsResponse>();
 }
 
 export function useNFTsInfiniteQuery() {
     const { data, isFetching, isError, hasNextPage, fetchNextPage } =
         useInfiniteQuery({
             queryKey: ["nfts"],
-            queryFn: ({ pageParam: cursor }) =>
-                Promise.all([fetchNFTItems(cursor), sleep(2000)] as const).then(
-                    ([res]) => res,
-                ),
+            queryFn: ({ pageParam: cursor }) => fetchNFTItems(cursor),
             initialPageParam: undefined as string | undefined,
             getNextPageParam: (lastPage) => {
                 return lastPage.nextCursor;

@@ -1,5 +1,5 @@
-import { AppHTTPException, logger } from "../../../shared/utils/index.js";
 import ky from "ky";
+import { AppHTTPException, logger } from "../../../shared/utils/index.js";
 import { friendlyAddressToRaw } from "../utils/friendly-address-to-raw.js";
 
 const TON_API_URL = "https://tonapi.io/v2";
@@ -23,7 +23,7 @@ type TonApiNFTItem = {
 
 type TonApiOwner = {
     address: string;
-    name?: string; // Optional because not all owners have a name
+    name?: string;
     is_scam: boolean;
     is_wallet: boolean;
 };
@@ -36,10 +36,10 @@ type TonApiCollection = {
 
 type TonApiMetadata = {
     name: string;
-    description: string;
+    description?: string;
     image: string;
-    marketplace?: string; // Optional because not all NFTs have a marketplace field
-    attributes?: TonApiAttribute[]; // Optional because some NFTs have empty attributes
+    marketplace?: string;
+    attributes?: TonApiAttribute[];
 };
 
 type TonApiAttribute = {
@@ -88,7 +88,7 @@ export type NFTItemData = {
     ownerAddress: string;
     image?: string;
     name: string;
-    description: string;
+    description?: string;
 };
 
 export async function fetchNFTData(addresses: string[]) {

@@ -1,5 +1,5 @@
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
-import { NFTItem } from "../../services/request";
+import { NFTItem } from "./hooks/queries";
 import { useIntersectionObserver } from "../../shared/hooks";
 import { NFTListItemLoader } from "./components/NFTListItemLoader";
 import { NFTListItemCard } from "./components/NFTListItemCard";
@@ -17,7 +17,7 @@ export function NFTList({ nfts, hasNextPage, onEndReached }: NFTListProps) {
         gap: 16,
         estimateSize: (index) => {
             if (index < nfts.length) {
-                return 300;
+                return 500;
             }
 
             // last item is loader

@@ -1,6 +1,6 @@
 import { VirtualItem } from "@tanstack/react-virtual";
-import { NFTItem } from "../../../../services/request";
-import { shortAddress } from "../../utils";
+import { NFTItem } from "../../hooks/queries";
+import { NFTAddress } from "../NFTAddress";
 import styles from "./styles.module.scss";
 
 type NFTListItemCardProps = {
@@ -36,11 +36,19 @@ export function NFTListItemCard({
                 )}
 
                 <div className={styles.nftListItemCardInfo}>
-                    <div>{item.name}</div>
-                    <div>{item.description}</div>
-                    <div>{shortAddress(item.friendlyAddress)}</div>
-                    <div>{shortAddress(item.rawAddress)}</div>
-                    <div>{shortAddress(item.ownerAddress)}</div>
+                    <div className={styles.nftListItemCardName}>
+                        {item.name}
+                    </div>
+                    <div className={styles.nftListItemCardDescription}>
+                        {item.description}
+                    </div>
+
+                    <NFTAddress name="Address" address={item.friendlyAddress} />
+                    <NFTAddress name="Raw Address" address={item.rawAddress} />
+                    <NFTAddress
+                        name="Owner Address"
+                        address={item.ownerAddress}
+                    />
                 </div>
             </div>
         </div>

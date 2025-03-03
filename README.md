@@ -13,9 +13,9 @@ tech solutions write:
 
 TODO:
 
--   ky backend???
--   ui/ux
-    -   wallet check redirect too
+-   dummy image if not loaded...
+
+-   wallet check redirect too
 -   manifest
 -   test in tg + return mode
     -   redirect after wallet open
