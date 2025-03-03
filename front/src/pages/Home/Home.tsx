@@ -1,5 +1,7 @@
-import { useNFTsInfiniteQuery } from "../features/NFTList/hooks/queries";
-import { NFTList } from "../features/NFTList/NFTList";
+import { TonConnectButton } from "@tonconnect/ui-react";
+import { NFTList, useNFTsInfiniteQuery } from "../../features/NFTList";
+import { Loader } from "../../shared/components/Loader";
+import styles from "./styles.module.scss";
 
 export function Home() {
     const { nfts, isFetching, isError, hasNextPage, fetchNextPage } =
@@ -13,7 +15,7 @@ export function Home() {
 
     const renderList = () => {
         if (nfts.length === 0 && isFetching) {
-            return <div>Loader...</div>;
+            return <Loader size="big" />;
         }
 
         if (isError) {
@@ -30,8 +32,11 @@ export function Home() {
     };
 
     return (
-        <div style={{ padding: "0 24px", maxWidth: 500, margin: "0 auto" }}>
-            <h1>List of NFTs</h1>
+        <div className={styles.homePage}>
+            <header className={styles.homePageHeader}>
+                <h1 className={styles.homePageHeading}>List of NFTs</h1>
+                <TonConnectButton />
+            </header>
             {renderList()}
         </div>
     );

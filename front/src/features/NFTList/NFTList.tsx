@@ -1,7 +1,8 @@
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import { NFTItem } from "../../services/request";
 import { useIntersectionObserver } from "../../shared/hooks";
-import { shortAddress } from "./utils";
+import { NFTListItemLoader } from "./components/NFTListItemLoader";
+import { NFTListItemCard } from "./components/NFTListItemCard";
 
 type NFTListProps = {
     nfts: NFTItem[];
@@ -13,13 +14,14 @@ export function NFTList({ nfts, hasNextPage, onEndReached }: NFTListProps) {
     const virtualizer = useWindowVirtualizer({
         count: nfts.length + (hasNextPage ? 1 : 0),
         overscan: 2,
+        gap: 16,
         estimateSize: (index) => {
             if (index < nfts.length) {
                 return 300;
             }
 
             // last item is loader
-            return 50;
+            return 60;
         },
         getItemKey(index) {
             if (index < nfts.length) {
@@ -30,7 +32,7 @@ export function NFTList({ nfts, hasNextPage, onEndReached }: NFTListProps) {
         },
     });
 
-    const lastItemRef = useIntersectionObserver((entry) => {
+    const loaderRef = useIntersectionObserver((entry) => {
         if (entry.isIntersecting) {
             onEndReached();
         }
@@ -41,78 +43,28 @@ export function NFTList({ nfts, hasNextPage, onEndReached }: NFTListProps) {
             style={{
                 height: virtualizer.getTotalSize(),
                 position: "relative",
-                maxWidth: 500,
             }}
         >
             {virtualizer.getVirtualItems().map((virtualItem) => {
-                if (virtualItem.index > nfts.length - 1) {
+                if (virtualItem.index < nfts.length) {
+                    const item = nfts[virtualItem.index];
+
                     return (
-                        <div
-                            ref={lastItemRef}
-                            style={{
-                                position: "absolute",
-                                top: 0,
-                                left: 0,
-                                height: virtualItem.size,
-                                transform: `translateY(${virtualItem.start}px)`,
-                                width: "100%",
-                            }}
+                        <NFTListItemCard
                             key={virtualItem.key}
-                        >
-                            Loading...
-                        </div>
+                            virtualItem={virtualItem}
+                            item={item}
+                            measureElementRef={virtualizer.measureElement}
+                        />
                     );
                 }
 
-                const item = nfts[virtualItem.index];
-
                 return (
-                    <div
+                    <NFTListItemLoader
                         key={virtualItem.key}
-                        style={{
-                            position: "absolute",
-                            top: 0,
-                            left: 0,
-                            transform: `translateY(${virtualItem.start}px)`,
-                            height: virtualItem.size,
-                            width: "100%",
-                        }}
-                    >
-                        <div
-                            ref={virtualizer.measureElement}
-                            data-index={virtualItem.index}
-                            style={{ paddingBottom: 16 }}
-                        >
-                            <div
-                                style={{
-                                    borderRadius: 8,
-                                    border: "1px solid lightgrey",
-                                    overflow: "hidden",
-                                }}
-                            >
-                                {item.image && (
-                                    <img
-                                        src={item.image}
-                                        style={{
-                                            width: "100%",
-                                            objectFit: "cover",
-                                            aspectRatio: 1,
-                                        }}
-                                    />
-                                )}
-
-                                <div style={{ padding: "8px 12px" }}>
-                                    <div>{item.name}</div>
-                                    <div>{item.description}</div>
-                                    <div>
-                                        {shortAddress(item.friendlyAddress)}
-                                    </div>
-                                    <div>{shortAddress(item.rawAddress)}</div>
-                                    <div>{shortAddress(item.ownerAddress)}</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        virtualItem={virtualItem}
+                        itemRef={loaderRef}
+                    />
                 );
             })}
         </div>
