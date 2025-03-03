@@ -9,12 +9,14 @@ tech solutions write:
 -   nfts might not have image/name/description
 -   architecture / code
 -   page size is hardcoded
+-   table matching
+-   load more error...
 
 TODO:
 
--   handle client side loading
-    -   virtual list
-    -   etc.
--   ui/ux
+-   wallet check redirect too
+-   manifest
+-   test in tg + return mode
+    -   redirect after wallet open
+-   full screen mode?
 -   deploy
--

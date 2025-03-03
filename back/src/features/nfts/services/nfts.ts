@@ -1,7 +1,7 @@
 import { isString } from "../../../shared/utils/index.js";
 import { redisCache } from "../../../shared/services/redis-cache.js";
 import { fetchNFTAddressesFromTable, fetchTableId } from "./notion.js";
-import { fetchNFTData, NFTItemData } from "./ton-center.js";
+import { fetchNFTData, NFTItemData } from "./ton-api.js";
 
 const cacheKeys = {
     tableId: (pageId: string) => `nfts:table-id:${pageId}`,
