@@ -7,11 +7,13 @@ import { Layout } from "./shared/components/Layout";
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
 
 const queryClient = new QueryClient();
+const MANIFEST =
+    "https://raw.githubusercontent.com/Ayub-Begimkulov/nft-marketplace-test/main/logo.png";
 
 export function App() {
     return (
         <QueryClientProvider client={queryClient}>
-            <TonConnectUIProvider manifestUrl="https://violet-traditional-rabbit-103.mypinata.cloud/ipfs/QmQJJAdZ2qSwdepvb5evJq7soEBueFenHLX3PoM6tiBffm">
+            <TonConnectUIProvider manifestUrl={MANIFEST}>
                 <Layout>
                     <Route path="/login">
                         <GuestOnly>
