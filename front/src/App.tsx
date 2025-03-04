@@ -6,7 +6,13 @@ import { AuthOnly, GuestOnly } from "./shared/components/RouteGuards";
 import { Layout } from "./shared/components/Layout";
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+    defaultOptions: {
+        queries: {
+            refetchOnWindowFocus: false,
+        },
+    },
+});
 const MANIFEST =
     "https://raw.githubusercontent.com/Ayub-Begimkulov/nft-marketplace-test/main/manifest.json";
 
