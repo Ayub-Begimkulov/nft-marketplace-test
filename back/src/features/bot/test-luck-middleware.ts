@@ -36,7 +36,7 @@ export async function testLuckMiddleware(ctx: Context) {
         emoji: randomDice.emoji,
     });
 
-    await sleep(2_000);
+    await sleep(3_000);
 
     if (randomDice.check(msg.dice.value)) {
         ctx.reply(
