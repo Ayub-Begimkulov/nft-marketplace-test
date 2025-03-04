@@ -7,7 +7,7 @@ const REQUIRED_ENV = [
     "NOTION_PAGE_ID",
     "TG_WEB_APP_URL",
 ] as const;
-const OPTIONAL_ENV = ["RENDER", "PORT"] as const;
+const OPTIONAL_ENV = ["RENDER_EXTERNAL_URL", "PORT"] as const;
 
 type RequiredEnvKeys = (typeof REQUIRED_ENV)[number];
 type OptionalEnvKeys = (typeof OPTIONAL_ENV)[number];
