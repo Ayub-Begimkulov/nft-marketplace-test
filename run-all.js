@@ -30,25 +30,32 @@ async function startNgrok() {
     }
 }
 
-function runCommand(command, cwd, name) {
+function runCommand(command, { cwd, name, env }) {
     console.log(`Running: ${command} in ${cwd}`);
-    const child = exec(command, { cwd });
+    const child = exec(command, { cwd, env });
 
     processes.push(child);
 
     child.stdout.on("data", (data) => console.log(`[${name}] ${data}`));
-    child.stderr.on("data", (data) => console.error(`[${name} ERROR] ${data}`));
+    child.stderr.on("data", (data) => console.log(`[${name}] ${data}`));
 }
 
 async function main() {
     const ngrokUrl = await startNgrok();
     console.log(`Ngrok URL: ${ngrokUrl}`);
 
-    runCommand("npm run dev", "./front", "front");
+    runCommand("npm run dev", { cwd: "./front", name: "front" });
 
-    runCommand("docker-compose up -d", "./back", "docker");
+    runCommand("docker-compose up -d", { cwd: "./back", name: "docker" });
 
-    runCommand(`TG_WEB_APP_URL=${ngrokUrl} npm run dev`, "./back", "back");
+    runCommand("npm run dev", {
+        cwd: "./back",
+        name: "back",
+        env: {
+            ...process.env,
+            TG_WEB_APP_URL: ngrokUrl,
+        },
+    });
 
     process.on("SIGINT", cleanup);
     process.on("SIGTERM", cleanup);
