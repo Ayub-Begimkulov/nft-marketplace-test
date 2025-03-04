@@ -7,9 +7,15 @@ const REQUIRED_ENV = [
     "NOTION_PAGE_ID",
     "TG_WEB_APP_URL",
 ] as const;
+const OPTIONAL_ENV = ["RENDER", "PORT"] as const;
 
-type EnvKeys = (typeof REQUIRED_ENV)[number];
-type EnvConfig = Record<EnvKeys, string>;
+type RequiredEnvKeys = (typeof REQUIRED_ENV)[number];
+type OptionalEnvKeys = (typeof OPTIONAL_ENV)[number];
+type EnvConfig = {
+    [Key in RequiredEnvKeys]: string;
+} & {
+    [Key in OptionalEnvKeys]?: string;
+};
 
 let loadedConfig: EnvConfig | undefined = undefined;
 
@@ -32,6 +38,10 @@ export function getEnv(): EnvConfig {
         }
 
         config[key] = value;
+    });
+
+    OPTIONAL_ENV.forEach((key) => {
+        config[key] = process.env[key];
     });
 
     loadedConfig = config;

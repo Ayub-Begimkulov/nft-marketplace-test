@@ -1,9 +1,11 @@
 import { Hono } from "hono";
 import { serve } from "@hono/node-server";
-import { handle } from "hono/vercel";
 import { bot } from "./features/bot/index.js";
 import { nftsRouter } from "./features/nfts/index.js";
 import { cors } from "hono/cors";
+import { getEnv, getPort } from "./shared/utils/index.js";
+
+const { RENDER, PORT } = getEnv();
 
 const app = new Hono().basePath("/api/v1");
 
@@ -12,11 +14,10 @@ app.use("*", cors());
 app.route("/nfts", nftsRouter);
 
 app.get("/health", (ctx) => {
-    console.log("====request=====");
     return ctx.json({ success: true });
 });
 
-if (!process.env.VERCEL) {
+if (!RENDER) {
     bot.launch(() => {
         console.log("Bot is running...");
     });
@@ -28,12 +29,7 @@ if (!process.env.VERCEL) {
     });
 }
 
-if (!process.env.VERCEL) {
-    console.log("====running---server=====");
-    serve({
-        fetch: app.fetch,
-        port: 3000,
-    });
-}
-
-export default handle(app);
+serve({
+    fetch: app.fetch,
+    port: getPort(PORT, 3000),
+});
