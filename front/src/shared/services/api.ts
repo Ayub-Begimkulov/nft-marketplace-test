@@ -4,7 +4,7 @@ const TIMEOUT = 30_000;
 
 export const api = ky.create({
     timeout: TIMEOUT,
-    prefixUrl: import.meta.env.VITE_API_URL,
+    prefixUrl: `${import.meta.env.VITE_API_URL}/api/v1`,
     hooks: {
         afterResponse: [logAPIError],
     },
