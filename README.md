@@ -26,7 +26,13 @@ Before trying to run project locally make sure that you have tools below install
 
 If you are unsure about any of these tools - run `which <tool-name>` (e.g. `which node`) to check if you have it on your machine.
 
-Also make sure that `ngrok` is configured properly with auth token. Read more about it [here](http://ngrok.com/docs/getting-started/).
+Also make sure that `ngrok` is configured properly with auth token. To test that everything is set up correctly you can try to open a tunnel to a random port and check that there are no errors:
+
+```bash
+ngrok http 1234
+```
+
+You can read more about setting up `ngrok` [here](http://ngrok.com/docs/getting-started/).
 
 **Creating Telegram Bot:**
 
