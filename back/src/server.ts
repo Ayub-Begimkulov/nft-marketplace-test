@@ -23,7 +23,7 @@ if (!RENDER_EXTERNAL_URL) {
     });
 } else {
     bot.telegram.setWebhook(`${RENDER_EXTERNAL_URL}/api/v1/bot-webhook`);
-    app.get("/bot-webhook", async (ctx) => {
+    app.post("/bot-webhook", async (ctx) => {
         const body = await ctx.req.json();
         await bot.handleUpdate(body);
         return ctx.json({ success: true });
