@@ -15,7 +15,6 @@ tech solutions write:
 TODO:
 
 -   wallet check redirect too
--   manifest
 -   test in tg + return mode
     -   redirect after wallet open
 -   full screen mode?

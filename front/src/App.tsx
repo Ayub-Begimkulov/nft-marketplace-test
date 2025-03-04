@@ -8,7 +8,7 @@ import { TonConnectUIProvider } from "@tonconnect/ui-react";
 
 const queryClient = new QueryClient();
 const MANIFEST =
-    "https://raw.githubusercontent.com/Ayub-Begimkulov/nft-marketplace-test/main/logo.png";
+    "https://raw.githubusercontent.com/Ayub-Begimkulov/nft-marketplace-test/main/manifest.json";
 
 export function App() {
     return (
